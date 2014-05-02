@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">GKPlayer</string>
+    <string name="info"><![CDATA[
+    	<HTML>
+		<BODY>
+			<P>This app doesn\'t use buttons it uses special gestures.</P>
+			<P>To Learn how to use gestures just draw a "?" with your finger.</P>
+			<P>You too can use GestureKit in your app <a href="http://www.gesturekit.com">www.gesturekit.com</a></P>
+			<P>Powered by <BR/> <a href="http://www.roamtouch.com">www.roamtouch.com</a></P>
+		</BODY>
+		</HTML>
+	]]>
+</string>
+	<string name="btn_help_close">Close Help</string>
+
+</resources>
