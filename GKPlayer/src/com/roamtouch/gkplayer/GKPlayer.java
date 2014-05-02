@@ -80,8 +80,7 @@ public class GKPlayer extends Activity implements OnClickListener {
 	Button mStopButton;
 	Button mEjectButton;
 
-	GestureKit gesturekit;
-	HelpAction gkhelpaction;
+	GestureKit gesturekit;	
 	Activity act;	
 
 	private PlayerLayout player;
@@ -107,16 +106,7 @@ public class GKPlayer extends Activity implements OnClickListener {
 		
 		this.gesturekit = new GestureKit(this, "988786d4-56dd-45d6-a558-1245954d815c"); //, (ViewGroup)findViewById(R.id.gesturekit));		
 		
-		this.gesturekit.setPlugin(new GestureKitHelper(this));
-			
-		this.gesturekit.setGestureKitListener(new GestureKitListener() {
-   			@Override
-   			public void onGestureKitLoaded() {   				
-   				gkhelpaction = new HelpAction(act, gesturekit);
-   				gesturekit.addGKAction(gkhelpaction);
-   			}
-   		});		 
-		
+		this.gesturekit.setPlugin(new GestureKitHelper(this, this.gesturekit));		
 		
 		player = (PlayerLayout)findViewById(R.id.player);
 		volume = player.getVolume();
