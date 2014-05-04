@@ -90,11 +90,11 @@ public class PlayerLayout extends ViewGroup implements ContentListener{
 
 		background.measure(wSpec, hSpec);
 
-		double sizeFactor = 0.75;
+		double sizeFactor = 0.7;
 		int screenSize = getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK;
 		if(screenSize != Configuration.SCREENLAYOUT_SIZE_SMALL && screenSize != Configuration.SCREENLAYOUT_SIZE_NORMAL 
 				&& screenSize != Configuration.SCREENLAYOUT_SIZE_LARGE )
-			sizeFactor = 0.34;
+			sizeFactor = 0.3;
 			
 		int rectSize = width > height ? (int)(height*sizeFactor) : (int)(width*sizeFactor);
 		int specAux = MeasureSpec.makeMeasureSpec(rectSize, MeasureSpec.EXACTLY);
@@ -124,7 +124,7 @@ public class PlayerLayout extends ViewGroup implements ContentListener{
 		volume.layout(volumeRect.left, volumeRect.top, volumeRect.right, volumeRect.bottom);
 		cover.layout(coverRect.left, coverRect.top, coverRect.right, coverRect.bottom);
 		progress.layout(progressRect.left, progressRect.top, progressRect.right, progressRect.bottom);
-		buttons.layout(l, b-400, r, b);
+		buttons.layout(l, b-230, r, b);
 	}
 
 	@Override
