@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.roamtouch.gkplayer"
+    package="com.roamtouch.gesturekit.gkplayer"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="12"
         android:targetSdkVersion="19" />
     
      <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -23,7 +23,7 @@
         android:theme="@style/AppTheme"
          >
         <activity
-            android:name="com.roamtouch.gkplayer.GKPlayer"
+            android:name="com.roamtouch.gesturekit.gkplayer.GKPlayer"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,13 +32,13 @@
             </intent-filter>
         </activity>
         
-         <service android:exported="false" android:name="com.roamtouch.gkplayer.service.MusicService">
+         <service android:exported="false" android:name="com.roamtouch.gesturekit.gkplayer.service.MusicService">
             <intent-filter>
-                <action android:name="com.roamtouch.gkplayer.action.PLAY" />
-                <action android:name="com.roamtouch.gkplayer.action.PAUSE" />
-                <action android:name="com.roamtouch.gkplayer.action.SKIP" />
-                <action android:name="com.roamtouch.gkplayer.action.REWIND" />
-                <action android:name="com.roamtouch.gkplayer.action.STOP" />
+                <action android:name="com.roamtouch.gesturekit.gkplayer.action.PLAY" />
+                <action android:name="com.roamtouch.gesturekit.gkplayer.action.PAUSE" />
+                <action android:name="com.roamtouch.gesturekit.gkplayer.action.SKIP" />
+                <action android:name="com.roamtouch.gesturekit.gkplayer.action.REWIND" />
+                <action android:name="com.roamtouch.gesturekit.gkplayer.action.STOP" />
             </intent-filter>
             <intent-filter>
                 <action android:name="com.example.android.musicplayer.action.URL" />
@@ -49,7 +49,7 @@
         <service android:name="com.roamtouch.gesturekit.communications.GestureKitService">
         </service>
 
-        <receiver android:name="com.roamtouch.gkplayer.service.MusicIntentReceiver">
+        <receiver android:name="com.roamtouch.gesturekit.gkplayer.service.MusicIntentReceiver">
             <intent-filter>
                 <action android:name="android.media.AUDIO_BECOMING_NOISY" />
             </intent-filter>

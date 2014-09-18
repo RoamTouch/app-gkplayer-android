@@ -5,7 +5,7 @@
 	android:layout_height="match_parent"
     >
        
-	<com.roamtouch.gkplayer.PlayerLayout
+	<com.roamtouch.gesturekit.gkplayer.PlayerLayout
 	    xmlns:android="http://schemas.android.com/apk/res/android"
 	    xmlns:custom="http://schemas.android.com/apk/res-auto"
 	    android:id="@+id/player"
@@ -18,13 +18,12 @@
 	    android:id="@+id/btn_info"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
-	    android:layout_alignParentTop="true"
 	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
 	    android:layout_margin="15dip"
-	    android:padding="15dip"
-	    android:src="@android:drawable/ic_dialog_info"
 	    android:background="@null"
-	 />
+	    android:padding="15dip"
+	    android:src="@drawable/info_btn" />
 	
 	<TextView
 	    android:id="@+id/info"

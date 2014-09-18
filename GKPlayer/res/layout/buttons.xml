@@ -1,71 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
-    android:gravity="center"    
-    android:background="#00777777"    
-    >
-<LinearLayout
-    android:orientation="horizontal"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
     android:gravity="center"
-    android:layout_marginTop="5dp"
-    >
-<Button
-    android:id="@+id/rewindbutton"
-    android:background="@drawable/selector_rew"
-    android:layout_width="60dp"
-    android:layout_height="60dp"
-    android:layout_margin="5dp"
-    />
-<Button
-    android:id="@+id/playbutton"
-    android:background="@drawable/selector_play"
-    android:layout_width="60dp"
-    android:layout_height="60dp"
-    android:layout_margin="5dp"
-    />
-<Button
-    android:id="@+id/skipbutton"
-    android:background="@drawable/selector_ff"
-    android:layout_width="60dp"
-    android:layout_height="60dp"
-    android:layout_margin="5dp"
-    />
-</LinearLayout>
+    android:orientation="vertical" >
 
 <LinearLayout
-    android:orientation="horizontal"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:gravity="center"
     android:layout_marginTop="5dp"
-    >
-<Button
-    android:id="@+id/pausebutton"
-    android:background="@drawable/selector_pause"
-    android:layout_width="60dp"
-    android:layout_height="60dp"
-    android:layout_margin="5dp"
-    />
-<Button
-    android:id="@+id/stopbutton"
-    android:background="@drawable/selector_stop"
-    android:layout_width="60dp"
-    android:layout_height="60dp"
-    android:layout_margin="5dp"
-    />
-<Button
-    android:id="@+id/ejectbutton"
-    android:background="@drawable/selector_eject"
-    android:layout_width="60dp"
-    android:layout_height="60dp"
-    android:layout_margin="5dp"
-    />
+    android:gravity="center"
+    android:orientation="horizontal" >
 
+    <Button
+        android:id="@+id/rewindbutton"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_margin="@dimen/margin_button"
+        android:background="@drawable/gkrewind" />
+
+    <Button
+        android:id="@+id/stopbutton"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_margin="@dimen/margin_button"
+        android:background="@drawable/gkstop" />
+
+    <Button
+        android:id="@+id/playbutton"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_margin="@dimen/margin_button"
+        android:background="@drawable/gkplay" />
+
+    <Button
+        android:id="@+id/pausebutton"
+        android:layout_width="25dp"
+        android:layout_height="32dp"
+        android:layout_margin="@dimen/margin_button"
+        android:background="@drawable/gkpause" />
+
+    <Button
+        android:id="@+id/skipbutton"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_margin="@dimen/margin_button"
+        android:background="@drawable/gkfastforward" />
 </LinearLayout>
 </LinearLayout>
