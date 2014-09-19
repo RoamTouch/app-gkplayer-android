@@ -1,5 +1,3 @@
-#### GestureKit: The first open source cross-platform tool to create gesture-driven apps.
-
 <img src="https://images.indiegogo.com/file_attachments/857034/files/20140914193931-colash.jpg?1410748771" alt="GestureKit Technology">
 
 # GKPlayer for Android ALPHA. 
