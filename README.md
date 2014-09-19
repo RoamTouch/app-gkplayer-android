@@ -1,4 +1,4 @@
-<img src="https://images.indiegogo.com/file_attachments/857034/files/20140914193931-colash.jpg?1410748771" alt="GestureKit Technology">
+<img src="http://www.gesturekit.com/wp-content/uploads/2014/05/colash_largo.png" alt="GestureKit Technology">
 
 # GKPlayer for Android ALPHA. 
 
