@@ -2,13 +2,9 @@
 
 # GKPlayer for Android ALPHA. 
 
-> A Media player for Android developer with gestureKit technoloty. 
+> A Media player for Android developer with gestureKit technoloty. A gesture-based music player.
 
 Please check out the [GKPlayer](https://play.google.com/store/apps/details?id=com.roamtouch.gesturekit.gkplayer) on the PLAY Store.
-
-## Demo Player
-
-A gesture-based music player.
 
 ## Usage
 
