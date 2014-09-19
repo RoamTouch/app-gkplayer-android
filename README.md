@@ -6,6 +6,9 @@
 
 Please check out the [GKPlayer](https://play.google.com/store/apps/details?id=com.roamtouch.gesturekit.gkplayer) on the PLAY Store.
 
+
+<img src="https://lh5.ggpht.com/vUyPhLXHkVudnX5vGIh-_T4i6yUlmAf6t0rAK6dx8sHQHSj1aoFxwMX6WAVQ7u_OBWo=h900-rw" alt="GKPlayer Android">
+
 ## Usage
 
 ### To enable the Helper, add the dependency GestureKitHelper plugin.
